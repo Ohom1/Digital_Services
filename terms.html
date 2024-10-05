@@ -1,40 +1,71 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SEO & Digital Marketing Services</title>
+    <meta name="description" content="On-Page SEO Services">
+    <title>Terms and Conditions</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 
-    <!-- Link to External CSS -->
-    <link rel="stylesheet" href="./css/style.css">
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+     <!-- Font Awesome for icons -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+     
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+     
+     <!-- Tailwind CSS CDN -->
+     <script src="https://cdn.tailwindcss.com"></script>
+         
+     <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
+         <!-- Link to External CSS -->
+    <link rel="stylesheet" href="./css/onpage_style.css">
+    
 
     <link rel="icon" href="./img/logo.png" type="image/png">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
-    
-    <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      
+
+        .primary {
+            color: #1e3a8a;
+        }
+
+
+        .highlight {
+            color: #1e3a8a;
+            font-weight: 600;
+        }
+
+        h3 {
+            position: relative;
+        }
+
+        h3::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -6px;
+            width: 100%;
+
+            height: 3px;
+            background: #6366f1;
+        }
+    </style>
         
-    <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
-    
 </head>
 
-<body>
+<body class="bg-gray-50">
 
 
      <!--Navigation-->
      <nav class="bg-white border-gray-200 py-2.5 dark:bg-gray-900 fixed top-0 left-0 w-full z-50 shadow-md">
         <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto align-items-center">
-            <a href="#" class="flex items-center">
+            <a href="index.html" class="flex items-center">
                 <img src="img/logo.png" class="h-16 mr-10 sm:h-20 rounded-full shadow-lg" alt="logo">
             </a>
             
@@ -55,27 +86,27 @@
             <div class="items-center justify-between w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
                 <ul class="flex flex-col mt-1 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                     <li>
-                        <a href="#seo-services"
+                        <a href="index.html"
                             class="block py-2 pl-3 pr-4 text-black border-b border-gray-100 hover:bg-lightblue-200 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-lightblue-200 dark:hover:text-white transition-all duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                             SEO Services
                         </a>
                     </li>
                     <li>
-                        <a href="#digital-marketing"
+                        <a href="index.html#digital-marketing"
                             class="block py-2 pl-3 pr-4 text-black border-b border-gray-100 hover:bg-lightblue-200 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-lightblue-200 dark:hover:text-white transition-all duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                             Digital Marketing
                         </a>
                     </li>
                     <li>
-                        <a href="#testimonials"
+                        <a href="index.html#testimonials"
                             class="block py-2 pl-3 pr-4 text-black border-b border-gray-100 hover:bg-lightblue-200 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-lightblue-200 dark:hover:text-white transition-all duration-300 ease-in-out transform hover:scale-105 rounded-lg">
                             Testimonials
                         </a>
                     </li>
                     <li>
-                        <a href="aboutus.html"
+                        <a href="#contact"
                             class="block py-2 pl-3 pr-4 text-black border-b border-gray-100 hover:bg-lightblue-200 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-lightblue-200 dark:hover:text-white transition-all duration-300 ease-in-out transform hover:scale-105 rounded-lg">
-                            About Us
+                            Contact Us
                         </a>
                     </li>
                 </ul>
@@ -83,245 +114,141 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero bg-cover bg-center text-white" style="background-image: url('https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); height: 100vh; background-size: cover; background-position: center;">
-        <div class="container text-center d-flex flex-column justify-content-center align-items-center h-100">
-            <h1 class="display-4 font-bold">SEO & Digital Marketing Services</h1>
-            <p class="lead mt-3">Grow your business with targeted SEO strategies that convert leads into customers.</p>
-            <a href="#contact" class="btn btn-primary btn-lg mt-4">Get Started</a>
-        </div>
-    </section>
-
-    <!-- Introduction Section -->
-    <section class="introduction py-16" style="background-color: #f9fafb;">
-        <div class="container flex flex-col lg:flex-row items-center justify-center h-full mx-auto">
-            <!-- Left Side: Image -->
-            <div class="w-full lg:w-1/3 h-64 lg:h-full relative overflow-hidden rounded-lg shadow-lg mb-8 lg:mb-0">
-                <img src="https://media.licdn.com/dms/image/D5612AQGf0iJHebFvoQ/article-cover_image-shrink_720_1280/0/1689963046338?e=2147483647&v=beta&t=p0fB1hPLNYXLLiL3_z5_kNiXQ0jXqr2mhiWtfDTH5Oo"
-                    alt="SEO Strategies" 
-                    class="object-cover h-full w-full transition-transform duration-500 ease-in-out transform hover:scale-105">
-            </div>
-
-            <!-- Right Side: Content -->
-            <div class="w-full lg:w-1/3 text-left px-4 lg:px-8">
-                <div class="content">
-                    <h2 class="text-3xl lg:text-4xl font-bold text-gray-800 mb-4">Grow Your Business with Targeted SEO Strategies</h2>
-                    <p class="mt-4 text-gray-600">
-                        Our services are designed to improve your search rankings, drive high-quality traffic, 
-                        and convert leads into customers. Let us handle the complexities of SEO while you focus 
-                        on running your business.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    <br><br><br><br>
     
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const cards = document.querySelectorAll('.card');
-    
-            const options = {
-                root: null,
-                rootMargin: '0px',
-                threshold: 0.1 // Trigger when 10% of the card is visible
-            };
-    
-            const observer = new IntersectionObserver((entries, observer) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('visible');
-                        observer.unobserve(entry.target); // Stop observing once visible
-                    }
-                });
-            }, options);
-    
-            cards.forEach(card => {
-                observer.observe(card);
-            });
-        });
-    </script>
-    
-    <!-- SEO Services Section -->
-    <section id="seo-services" class="py-16 bg-light">
-        <div class="container">
-            <h2 class="text-center text-3xl font-bold mb-12">Our SEO Services</h2>
-            <div class="row text-center">
-                <div class="col-md-3 mb-4">
-                    <button id="openModal" onclick="myModalClick()">
-                        <div class="card p-16 shadow-16 rounded relative">
-                            <i class="fas fa-search fa-3x text-primary"></i>
-                            <h4 class="mt-3 font-semibold">On-Page SEO</h4>
-                            <p>Keyword research, meta tags, and content optimization to improve search visibility.</p>
-                            <div class="absolute bottom-6 right-8 bg-primary text-white font-bold py-1 px-2 rounded-lg text-sm">
-                                ₹149
-                            </div>
-                        </div>
-                    </button>
-                </div>
 
+    <main class="max-w-6xl mx-auto mt-12 p-8 bg-white shadow-lg rounded-lg">
+        <section class="mb-10">
+            <h2 class="text-4xl font-bold primary mb-4">Terms & Conditions</h2>
+            <p class="text-lg">
+                Welcome to <span class="highlight">Boost SEO Results</span>. By engaging in our SEO and Digital Marketing
+                services, you agree to the following terms and conditions. Please read them carefully, as they outline the responsibilities, expectations, and conditions of our relationship.
+            </p>
+        </section>
 
-                <div class="col-md-3 mb-4">
-                    <button id="openModal" onclick="myModalClick()">
-                        <div class="card p-16 shadow-16 rounded relative">
-                            <i class="fas fa-link fa-3x text-primary"></i>
-                            <h4 class="mt-3 font-semibold">Off-Page SEO</h4>
-                            <p>Backlink building and social media signals to boost domain authority and rankings.</p>
-                            
-                            <div class="absolute bottom-6 right-8 bg-primary text-white font-bold py-1 px-2 rounded-lg text-sm">
-                                ₹399
-                            </div>
-                        </div>
-                    </button>
-                </div>
+        <section class="mb-8">
+            <h3 class="text-3xl font-semibold primary mb-4">1. Payment Terms</h3>
+            <div class="ml-6">
+                <h4 class="text-xl font-semibold mb-2">1. Upfront Payments:</h4>
+                <p class="text-lg mb-2">All payments for SEO and digital marketing services must be made upfront unless
+                    otherwise agreed in writing. No work will commence until full payment has been received.</p>
 
-                <div class="col-md-3 mb-4">
-                    <button id="openModal" onclick="myModalClick()">
-                        <div class="card p-16 shadow-16 rounded relative">
-                            <i class="fas fa-cogs fa-3x text-primary"></i>
-                            <h4 class="mt-3 font-semibold">Technical SEO</h4>
-                            <p>Website audits, page speed optimization, and fixing crawl errors for better indexing.</p>
-                            
-                            <div class="absolute bottom-6 right-8 bg-primary text-white font-bold py-1 px-2 rounded-lg text-sm">
-                                ₹499
-                            </div>
-                        </div>
-                    </button>
-                </div>
+                <h4 class="text-xl font-semibold mb-2">2. Subscription Services:</h4>
+                <p class="text-lg mb-2">For subscription-based services (e.g., monthly SEO, social media management), payments must be made on a recurring basis, on the same day each month. Late payments may result in service suspension until the outstanding balance is cleared.</p>
 
-               
-                <div class="col-md-3 mb-4">
-                    <button id="openModal" onclick="myModalClick()">
-                        <div class="card p-16 shadow-16 rounded relative">
-                            <i class="fas fa-map-marker-alt fa-3x text-primary"></i>
-                            <h4 class="mt-3 font-semibold">Local SEO</h4>
-                            <p>Optimize for local search with Google My Business and targeted keyword strategies.</p>
-                            
-                            <div class="absolute bottom-6 right-8 bg-primary text-white font-bold py-1 px-2 rounded-lg text-sm">
-                                ₹149
-                            </div>
-                        </div>
-                    </button>
-                </div>
+                <h4 class="text-xl font-semibold mb-2">3. Project-Based Payments:</h4>
+                <p class="text-lg mb-2">For one-time services or projects, a payment schedule will be agreed upon before the start of the project. Typically, a 50% deposit is required upfront, with the remaining 50% due upon project completion.</p>
+
+                <h4 class="text-xl font-semibold mb-2">4. Currency & Payment Methods:</h4>
+                <p class="text-lg mb-2">All payments must be made in Indian Rupees (₹) or other currencies as agreed upon. We accept payments via credit card, bank transfer, and other methods specified on our website.</p>
+
+                <h4 class="text-xl font-semibold mb-2">5. Late Payments:</h4>
+                <p class="text-lg mb-2">Payments not received within 7 days of the invoice date may incur late fees, and services may be paused until the balance is settled.</p>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Digital Marketing Services Section -->
-    <section id="digital-marketing" class="py-16 bg-gray-100">
-        <div class="container align-items-center">
-            <h2 class="text-center text-3xl font-bold mb-12">Digital Marketing Services</h2>
-            <div class="row  justify-content-center text-center">
+       
+        <section class="mb-8">
+            <h3 class="text-3xl font-semibold primary mb-4">2. Timeline for Services</h3>
+            <div class="ml-6">
+                <h4 class="text-xl font-semibold mb-2">1. SEO Results:</h4>
+                <p class="text-lg mb-2">SEO is a long-term strategy, and while we employ the best practices to improve rankings and visibility, results may take 3-6 months or longer, depending on your industry, competition, and the keywords being targeted.</p>
 
-                <!-- <div class="col-md-3 mb-4">
-                    <button id="openModal" onclick="myModalClick()">
-                        <div class="card p-16 shadow-16 rounded relative">
-                            <i class="fab fa-facebook fa-3x text-primary"></i>
-                            <h4 class="mt-3 font-semibold">Social Media Marketing</h4>
-                            <p>Facebook, Instagram, LinkedIn, and Twitter campaigns to engage your audience.</p>
-                            
-                            <div class="absolute bottom-6 right-8 bg-primary text-white font-bold py-1 px-2 rounded-lg text-sm">
-                                ₹499
-                            </div>
-                        </div>
-                    </button>
-                </div>
+                <h4 class="text-xl font-semibold mb-2">2. Digital Marketing Campaigns:</h4>
+                <p class="text-lg mb-2">Results from digital marketing campaigns (e.g., Google Ads, Facebook Ads) are influenced by ad performance, ongoing optimization, and other variables. While some campaigns may show immediate results, others may take time to achieve optimal performance.</p>
 
-                
-                <div class="col-md-3 mb-4">
-                    <button id="openModal" onclick="myModalClick()">
-                        <div class="card p-16 shadow-16 rounded relative">
-                            <i class="fas fa-ad fa-3x text-primary"></i>
-                            <h4 class="mt-3 font-semibold">PPC Advertising</h4>
-                            <p>Google Ads and Bing Ads for instant traffic with paid advertising campaigns.</p>
-                            
-                            <div class="absolute bottom-6 right-8 bg-primary text-white font-bold py-1 px-2 rounded-lg text-sm">
-                                ₹399
-                            </div>
-                        </div>
-                    </button>
-                </div> -->
-
-
-                <div class="col-md-3 mb-4">
-                    <button id="openModal" onclick="myModalClick()">
-                        <div class="card p-16 shadow-16 rounded relative">
-                            <i class="fas fa-file-alt fa-3x text-primary"></i>
-                            <h4 class="mt-3 font-semibold">Content Marketing</h4>
-                            <p>Engage your audience with high-quality blogs, articles, and video marketing strategies.</p>
-                            
-                            <div class="absolute bottom-6 right-8 bg-primary text-white font-bold py-1 px-2 rounded-lg text-sm">
-                                ₹149
-                            </div>
-                        </div>
-                    </button>
-                </div>
-
-                <div class="col-md-3 mb-4">
-                    <button id="openModal" onclick="myModalClick()">
-                        <div class="card p-16 shadow-16 rounded relative">
-                            <i class="fas fa-chart-line fa-3x text-primary"></i>
-                            <h4 class="mt-3 font-semibold">Conversion Rate Optimization</h4>
-                            <p>Improve your website’s performance to increase conversion rates and revenue.</p>
-                            
-                            <div class="absolute bottom-6 right-8 bg-primary text-white font-bold py-1 px-2 rounded-lg text-sm">
-                                ₹399
-                            </div>
-                        </div>
-                    </button>
-                </div>
+                <h4 class="text-xl font-semibold mb-2">3. Timely Client Collaboration:</h4>
+                <p class="text-lg mb-2">In order to ensure smooth execution, the client agrees to provide any necessary access (e.g., to websites, social media accounts, or other platforms) in a timely manner. Delays in client collaboration may impact the timeline and outcomes of the services.</p>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="py-16 bg-light">
-        <div class="container">
-            <h2 class="text-center text-3xl font-bold mb-12">What Our Clients Say</h2>
-            <div class="row">
-                <div class="col-md-4 mb-4">
-                    <div class="card p-4 shadow-16 rounded d-flex flex-row align-items-center">
-                        <img src="https://images.squarespace-cdn.com/content/v1/557aec54e4b03c2094a2b4be/1548181738786-ZICMD107QZ5HH52QBUZ1/farough+testimonial+pics-04.png" 
-                            alt="Jane Doe" class="rounded-circle" style="width: 80px; height: 80px;">
-                        <div class="ml-3">
-                            <h5 class="font-bold">Jane Doe</h5>
-                            <p class="mb-1">"The SEO results were incredible! We saw a 120% increase in organic traffic in 6 months."</p>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card p-4 shadow-16 rounded d-flex flex-row align-items-center">
-                        <img src="https://gfs.ca/wp-content/uploads/2022/07/testimonial-headshot-jim-gordon-300x300-1.jpg" 
-                            alt="John Smith" class="rounded-circle" style="width: 80px; height: 80px;">
-                        <div class="ml-3">
-                            <h5 class="font-bold">John Smith</h5>
-                            <p class="mb-1">"Thanks to their social media campaigns, we generated over 50+ leads in a single month."</p>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card p-4 shadow-16 rounded d-flex flex-row align-items-center">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLWltO_RzTpY_bKJ5glRBmGHEPbuUj3YnrVQ&s" 
-                            alt="Sarah Williams" class="rounded-circle" style="width: 80px; height: 80px;">
-                        <div class="ml-3">
-                            <h5 class="font-bold">Smith Williams</h5>
-                            <p class="mb-1">"Their strategies helped us rank #1 for multiple keywords in a highly competitive market."</p>
-                            
-                        </div>
-                    </div>
-                </div>
+        <section class="mb-8">
+            <h3 class="text-3xl font-semibold primary mb-4">3. Performance Guarantees</h3>
+            <div class="ml-6">
+                <h4 class="text-xl font-semibold mb-2">1. No Guaranteed Results:</h4>
+                <p class="text-lg mb-2">While we strive to deliver measurable improvements and enhanced visibility, we do not guarantee specific outcomes such as: Top Google Rankings, Increased website traffic, or Specific revenue gains.</p>
+
+                <h4 class="text-xl font-semibold mb-2">2. Optimization & Monitoring:</h4>
+                <p class="text-lg mb-2">We ensure ongoing monitoring and optimization of campaigns and SEO efforts to provide the best possible results based on the agreed-upon strategy. Regular reports will be provided to update the client on progress and performance.</p>
             </div>
-        </div>
-    </section>
+        </section>
 
+        <section class="mb-8">
+            <h3 class="text-3xl font-semibold primary mb-4">4. Client Responsibilities</h3>
+            <div class="ml-6">
+                <h4 class="text-xl font-semibold mb-2">1. Accurate Information:</h4>
+                <p class="text-lg mb-2">The client agrees to provide accurate, up-to-date, and complete information required to execute SEO and digital marketing services effectively.</p>
+
+                <h4 class="text-xl font-semibold mb-2">2. Adherence to Guidelines:</h4>
+                <p class="text-lg mb-2">Clients must comply with the terms of use for platforms involved in campaigns (e.g., Google, Facebook, Instagram).</p>
+
+                <h4 class="text-xl font-semibold mb-2">3. Content Collaboration:</h4>
+                <p class="text-lg mb-2">SEO and digital marketing often involve the creation of new content. The client agrees to provide timely feedback or approval for content developed by our team.</p>
+            </div>
+        </section>
+
+        <section class="mb-8">
+            <h3 class="text-3xl font-semibold primary mb-4">5. Service Modifications</h3>
+            <div class="ml-6">
+                <h4 class="text-xl font-semibold mb-2">1. Scope of Work Changes:</h4>
+                <p class="text-lg mb-2">If at any point the client requests changes to the agreed-upon scope of work, additional fees may be required depending on the extent of the changes. Any modifications to the original agreement must be made in writing and approved by both parties.</p>
+
+                <h4 class="text-xl font-semibold mb-2">2. Suspension of Services:</h4>
+                <p class="text-lg mb-2">Boost SEO Results reserves the right to suspend services if the client engages in activities that violate our terms, such as failing to pay on time or breaching platform policies (e.g., black-hat SEO tactics).</p>
+            </div>
+        </section>
+
+        <section class="mb-8">
+            <h3 class="text-3xl font-semibold primary mb-4">6. Confidentiality</h3>
+            <div class="ml-6">
+                <h4 class="text-xl font-semibold mb-2">1. Client Data:</h4>
+                <p class="text-lg mb-2">Boost SEO Results will treat all client data, including website information, analytics, and business plans, as confidential and will not share this data with third parties without prior consent, except when required by law.</p>
+
+                <h4 class="text-xl font-semibold mb-2">2. Non-Disclosure:</h4>
+                <p class="text-lg mb-2">Both parties agree not to disclose any confidential information, trade secrets, or proprietary information exchanged during the course of the services.</p>
+            </div>
+        </section>
+
+        <section class="mb-8">
+            <h3 class="text-3xl font-semibold primary mb-4">7. Termination of Services</h3>
+            <div class="ml-6">
+                <h4 class="text-xl font-semibold mb-2">1. Mutual Termination:</h4>
+                <p class="text-lg mb-2">Either party may terminate the agreement for any ongoing services by providing written notice 30 days in advance. Upon termination, all outstanding balances must be cleared.</p>
+
+                <h4 class="text-xl font-semibold mb-2">2. Termination for Breach:</h4>
+                <p class="text-lg mb-2">If either party fails to uphold their responsibilities under this agreement, the other party may terminate the contract immediately without further notice.</p>
+            </div>
+        </section>
+
+        <section class="mb-8">
+            <h3 class="text-3xl font-semibold primary mb-4">8. Liability Limitation</h3>
+            <div class="ml-6">
+                <h4 class="text-xl font-semibold mb-2">1. No Liability for Losses:</h4>
+                <p class="text-lg mb-2">Boost SEO Results shall not be held liable for any indirect, incidental, or consequential damages, including lost profits, missed opportunities, and business interruptions.</p>
+
+                <h4 class="text-xl font-semibold mb-2">2. Maximum Liability:</h4>
+                <p class="text-lg mb-2">Our maximum liability for any claim related to our services will not exceed the total amount paid by the client for the services in question.</p>
+            </div>
+        </section>
+
+        <section class="mb-8">
+            <h3 class="text-3xl font-semibold primary mb-4">9. Governing Law</h3>
+            <div class="ml-6">
+                <p class="text-lg mb-2">These terms and conditions are governed by and construed in accordance with the laws of India. Any disputes arising from this agreement will be subject to the jurisdiction of the courts located in [City], India.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <br><br>
+       
     <!-- Contact Form -->
     <section id="contact" class="py-16 bg-gray-100">
+         <div class="text-center mt-10">
+            <h4 class="text-xl font-semibold mb-4">Ready to Boost Your SEO?</h4>
+            <p class="mb-4">Contact us today to learn more about how we can help improve your website's search visibility!</p>
+         </div>
         <div class="container">
-            <h2 class="text-center text-3xl font-bold mb-12">Contact Us</h2>
-
-
             <form  id="contactForm" method="POST" onsubmit="submitForm(event)" class="w-50 mx-auto">
 
                 <div class="mb-3">
@@ -359,10 +286,9 @@
                     });
                 }
             </script>  
-
         </div>
     </section>
-    
+        
     <!-- Footer Start -->
     <div class="container-fluid bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-10 px-lg-5">
@@ -378,10 +304,10 @@
                 </div>
                 <div class="col-md-6 col-lg-3 text-white">
                     <p class="section-title text-white h5 mb-4">Quick Link<span></span></p>
-                    <a class="d-block text-white text-decoration-none mb-2" href="#">SEO Services</a>
-                    <a class="d-block text-white text-decoration-none mb-2" href="#testimonials">Testimonials</a>
-                    <a class="d-block text-white text-decoration-none mb-2" href="#digital-marketing">Digital Marketing</a>
-                    <a class="d-block text-white text-decoration-none mb-2" href="terms.html">Terms & Condition</a>
+                    <a class="d-block text-white text-decoration-none mb-2" href="index.html">SEO Services</a>
+                    <a class="d-block text-white text-decoration-none mb-2" href="index.html#testimonials">Testimonials</a>
+                    <a class="d-block text-white text-decoration-none mb-2" href="index.html#digital-marketing">Digital Marketing</a>
+                    <a class="d-block text-white text-decoration-none mb-2" href="#">Terms & Condition</a>
                     <a class="d-block text-white text-decoration-none mb-2" href="aboutus.html">About Us</a>
                     <a class="d-block text-white text-decoration-none mb-2" href="cancel.html">Cancellation & Refund</a>
                     <a class="d-block text-white text-decoration-none mb-2" href="#contact">Contact Us</a>
@@ -422,103 +348,16 @@
             <div class="copyright">
                 <div class="row justify-content-center">
                     <div class="col-md-7 mb-3 mb-md-8">
-                        All Rights Reserved. Designed By 
+                        All Rights Reserved. Designed By <br>
                         <a class="border-bottom" href="https://www.genxcreative.com/">G & J Media Entertainment LLP</a>
                     </div>
                 </div>
             </div>
         </div>
         
+        
     </div>
 
-
-    <!-- Modal Structure -->
-    <div id="myModal" class="modal fixed inset-0 bg-gray-600 bg-opacity-50 flex items-center justify-center" style="display:none;">
-        <div class="modal-content bg-white rounded-lg shadow-lg p-6 w-full max-w-lg md:w-2/3 lg:w-1/3">
-            <span class="close text-gray-500 hover:text-gray-800 cursor-pointer float-right" id="closeModal">&times;</span>
-            <h2 class="text-xl font-bold mb-4">Services Form</h2>
-            <form id="s_contactForm" onsubmit="serviceSubmit(event)" method="POST">
-                <div class="mb-4">
-                    <label for="name" class="block text-gray-700">Name</label>
-                    <input type="text" id="name" name="s_name" required class="mt-1 block w-full border border-gray-300 rounded-md p-2">
-                </div>
-                <div class="mb-4">
-                    <label for="mobile" class="block text-gray-700">Mobile Number</label>
-                    <input type="text" id="mobile" name="s_mobile" required 
-                        pattern="[0-9]{10}" 
-                        maxlength="10" 
-                        class="mt-1 block w-full border border-gray-300 rounded-md p-2"
-                        title="Please enter a valid 10-digit mobile number.">
-                </div>
-                <div class="mb-4">
-                    <label for="email" class="block text-gray-700">Email ID</label>
-                    <input type="email" id="email" name="s_email" required class="mt-1 block w-full border border-gray-300 rounded-md p-2">
-                </div>
-                <!-- Service selection -->
-                <div class="mb-4">
-                    <label for="service" class="block text-gray-700">Select Service</label>
-                    <select id="service" name="s_service" class="mt-1 block w-full border border-gray-300 rounded-md p-2" required>
-                        <option value="" disabled selected>Select a service</option>
-                        <option value="All SEO Service">All SEO Service</option>
-                        <option value="On-page SEO">On-page SEO</option>
-                        <option value="OffPage SEO">OffPage SEO</option>
-                        <option value="Technical SEO">Technical SEO</option>
-                        <option value="Local SEO">Local SEO</option>
-                        <!-- <option value="Social Media Marketing">Social Media Marketing</option>
-                        <option value="Pay Per Click Advertising">Pay Per Click Advertising</option> -->
-                        <option value="Content Marketing">Content Marketing</option>
-                        <option value="Conversion Rate Optimization">Conversion Rate Optimization</option>
-                    </select>
-                </div>
-                <!-- Submit Button -->
-                <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded w-full">Submit</button>
-            </form>
-            <script>
-                function serviceSubmit(event) {
-                    event.preventDefault(); 
-                    const form = document.getElementById('s_contactForm');
-                    const formData = new FormData(form);
-            
-                    fetch('services_data.php', { 
-                        method: 'POST',
-                        body: formData,
-                    })
-                    .then(response => response.text())
-                    .then(data => {
-                        console.log(data); 
-                        form.reset();
-                        alert('Message sent successfully!');
-                    })
-                    .catch(error => {
-                        console.error('Error:', error);;
-                    });
-                }
-            </script>
-        </div>
-    </div>
-
-    <!-- JavaScript -->
-    <script>
-        // Function to handle modal opening and closing
-        function myModalClick() {
-            const modal = document.getElementById("myModal");
-            const span = document.getElementById("closeModal");
-
-            // Open the modal
-            modal.style.display = "flex";
-
-            // Close the modal when clicking on the 'x' button
-            span.onclick = function() {
-                modal.style.display = "none";
-            };
-
-            // Close the modal when clicking outside the modal content
-            window.onclick = function(event) {
-                if (event.target == modal) {
-                    modal.style.display = "none";
-                }
-            };
-        }
-    </script>
-    
 </body>
+
+</html>
